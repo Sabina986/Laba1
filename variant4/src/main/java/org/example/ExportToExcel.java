@@ -54,7 +54,7 @@ public class ExportToExcel {
 
                 int rowUbdex = 1;
                 System.out.printf("\n | %-100s | %-100s | %-100s | %-100s | %-100s | %-100s | %-100s |\n", "Первая строка", "Вторая строка", "Подстрока 1",
-                        "Подстрока 1", "Верхний регистр", "Нижний регистр", "Окончание подстроки");
+                        "Подстрока 2", "Верхний регистр", "Нижний регистр", "Окончание подстроки");
                 while (rs.next()) {
                     Row row1 = sheet.createRow(rowUbdex++);
                     row1.createCell(0).setCellValue(rs.getString("Str1")); String Str1 = rs.getString("Str1");
